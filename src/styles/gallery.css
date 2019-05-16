@@ -1,0 +1,48 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 300px;
+    grid-auto-rows: 300px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+.username {
+    color: darkblue;
+}
+
+.button {
+    margin: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 32px;
+    border: none;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #148f04;
+    background-image: -moz-linear-gradient(top, #148f04 0%, #158f04 100%);
+    background-image: -webkit-linear-gradient(top, #148f04 0%, #158f04 100%);
+    background-image: -o-linear-gradient(top, #148f04 0%, #158f04 100%);
+    background-image: -ms-linear-gradient(top, #148f04 0%, #158f04 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#158f04', endColorstr='#158f04', GradientType=0);
+    background-image: linear-gradient(top, #148f04 0%, #158f04 100%);
+}
+
+.button:hover {
+    padding: 11px 32px;
+    border: none;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background: #052401;
+}

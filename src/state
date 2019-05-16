@@ -1,0 +1,12 @@
+{
+    username: '',
+    dataInLoading: false,
+    pictures: []
+}
+
+{
+    id: '',
+    preview: '',
+    image: '',
+    showInModal: false
+}
